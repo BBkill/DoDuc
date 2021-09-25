@@ -1,8 +1,8 @@
 import java.util.*;
-public class DiaChiMail {
+public class Mail {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        int t = sc.nextInt();
         sc.nextLine();
         String email[]=new String[100];
        for(int j=0;j<n;j++)
@@ -22,10 +22,10 @@ public class DiaChiMail {
             int dd=1;
             for(int j=i-1;j>=0;j--)
             {
-                if(email[i].equals(email[j])) dd++;
+                if(email[i].equals(email[j])) d++;
             }
             if(dd==1) System.out.print(email[i]);
-            else System.out.print(email[i]+dd);
+            else System.out.print(email[i]+d);
             System.out.println("@ptit.edu.vn");
         }
  

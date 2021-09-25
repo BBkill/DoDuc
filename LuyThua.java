@@ -1,9 +1,8 @@
 // import java.util.Scanner;
 
 // public class LuyThua { 
-//     static final long m=(long)((long)1e9+7);
-//     //static final long m =100;
-//     public static void main(String[] args) {
+//     static final long M=(long)((long)1e9+7);
+//         public static void main(String[] args) {
        
 //         Scanner sc=new Scanner(System.in);
 //         while(true)
@@ -19,13 +18,14 @@
 //             }
 //         }
 //     }
-//     public static long power (long x, long y)
+//     public static long power (long n, long k)
 //     {
-//         if(y==0) return 1;
-//         if(y==1) return x;
-//         long tmp=power(x,y/2);
-//         if(y%2==0) return (tmp%m)*(tmp%m)%m;
-//         else return ((tmp%m)*(((tmp%m)*(tmp%m))%m))%m;
+//         if(k==0)
+//             return 1;
+//         long x = power(n,k/2);
+//         if(k%2==0)
+//             return x*x%M;
+//         return x*x%M*n%M;
 
 //     }
 // }
