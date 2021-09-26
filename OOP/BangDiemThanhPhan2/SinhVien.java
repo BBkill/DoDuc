@@ -82,7 +82,7 @@ public class SinhVien implements Comparable<SinhVien> {
     }
     @Override
     public int compareTo(SinhVien o) {
-        if(ID.compareTo(o.ID)>0) return 1;
+        if(name.compareTo(o.name)>0) return 1;
         return -1;
     }
     
