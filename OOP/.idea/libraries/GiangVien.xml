@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="GiangVien">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SapXepGiangVien/GiangVien.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

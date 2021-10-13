@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="NhanVien">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/DanhSachDoiTuongNhanVien/NhanVien.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

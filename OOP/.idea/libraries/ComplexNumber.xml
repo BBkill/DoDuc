@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ComplexNumber">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SoPhuc/ComplexNumber.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

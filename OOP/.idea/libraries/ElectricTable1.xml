@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ElectricTable1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/TinhTienDien/ElectricTable.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

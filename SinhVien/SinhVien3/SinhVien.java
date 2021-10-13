@@ -8,13 +8,44 @@ public class SinhVien implements Comparable<SinhVien> {
     private int msv;
     public SinhVien(int msv,String hoTen, String lop, String ngaySinh, float GPA)
     {
-        this.msv=msv;
-        this.hoTen=hoTen;
-        this.lop=lop;
-        this.ngaySinh=ngaySinh;
-        this.GPA=GPA;
+        // this.msv=msv;
+        // this.hoTen=hoTen;
+        // this.lop=lop;
+        // this.ngaySinh=ngaySinh;
+        // this.GPA=GPA;
+        super(msv,hoTen,lop,ngaySinh,GPA);
         
     }
+    SinhVien(){}
+    
+    public String getHoTen() {
+        return hoTen;
+    }
+    public void setHoTen(String hoTen) {
+        this.hoTen = hoTen;
+    }
+    public String getLop() {
+        return lop;
+    }
+    public void setLop(String lop) {
+        this.lop = lop;
+    }
+    public String getNgaySinh() {
+        return ngaySinh;
+    }
+    public void setNgaySinh(String ngaySinh) {
+        this.ngaySinh = ngaySinh;
+    }
+    public void setGPA(float gPA) {
+        GPA = gPA;
+    }
+    public int getMsv() {
+        return msv;
+    }
+    public void setMsv(int msv) {
+        this.msv = msv;
+    }
+    
     private String sinhNgay()
     {
         int n=ngaySinh.length();
@@ -44,7 +75,7 @@ public class SinhVien implements Comparable<SinhVien> {
         DecimalFormat df=new DecimalFormat("#.00");
         return df.format(GPA);
     }
-    public String chuanhoaTen()
+    private String chuanhoaTen()
     {
         String s = "",ss="";
         s = " " + hoTen.trim().replaceAll(" +", " ").toLowerCase();

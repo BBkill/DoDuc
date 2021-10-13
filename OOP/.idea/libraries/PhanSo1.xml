@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="PhanSo1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/TongPhanSo/PhanSo.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
