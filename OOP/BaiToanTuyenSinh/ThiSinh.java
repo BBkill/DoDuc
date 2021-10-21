@@ -1,4 +1,4 @@
-class ThiSinh{
+public class ThiSinh{
     private String ma,ten,tongdiem,diemut;
     private double diem1,diem2,diem3,diemcong;
     public ThiSinh(String ma, String ten, double diem1, double diem2, double diem3) {
