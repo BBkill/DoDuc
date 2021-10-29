@@ -4,10 +4,11 @@ import java.io.ObjectOutputStream;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        ObjectOutputStream a = new ObjectOutputStream(new FileOutputStream("VD.txt"));
+        ObjectOutputStream a = new ObjectOutputStream(new FileOutputStream("VANBAN.txt"));
         String s = "what the fuck";
         a.reset();
-        a.writeObject(s+"\n");
+        a.write(s.getBytes());
+        //a.writeObject(s+"\n");
         a.close();
     }
 }
