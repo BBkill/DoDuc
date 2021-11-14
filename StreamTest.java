@@ -39,7 +39,7 @@ public class StreamTest{
             numberList.add(arr[i]*2);
             System.out.print(arr[i]*2+" ");
         }
-        
+      
         
        
     }
